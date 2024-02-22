@@ -17,3 +17,13 @@ category (a pandas-specific data type for categorical data)
 Custom Objects:
 You can use custom objects or other data types, and pandas will try to infer the appropriate data type.
 
+2- Create a series having the month's number as data and assign name as their index values? 
+
+import pandas as pd
+years={"january": 1, "february": 2,"march":3, 
+       "april":4,"may":5,"june":6, "july":7,"augest":8,
+       "september":9,"october":10,"november":11,
+       "december":12
+    }
+months=pd.Series(years)
+print(months)
