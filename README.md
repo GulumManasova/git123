@@ -27,3 +27,13 @@ years={"january": 1, "february": 2,"march":3,
     }
 months=pd.Series(years)
 print(months)
+
+3-Write a program to create a series object using the dictionary which store the number of students in fresh batch groups ( MatMIE, Mat DAIS, COMIE, COMEC)?
+
+import pandas as pd
+group={"matmie":33, "matdais":30, "comse":28, "comie":25}
+s=pd.Series(group)
+print(s)
+
+
+
